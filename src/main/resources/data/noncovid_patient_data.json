@@ -1,0 +1,2362 @@
+{
+  "0": [
+    {
+      "feature": "FiO2",
+      "_model_feature_name": "|Respiratory| FiO\u00b2 % *mean",
+      "loinc_name": "Oxygen/Inspired gas Respiratory system --on ventilator",
+      "loinc_code": "19996-8",
+      "ucum": "%",
+      "aggregation": "mean",
+      "value": 37.0593984962
+    },
+    {
+      "feature": "Sauerstoffs\u00e4ttigung",
+      "_model_feature_name": "|Vital| SpO\u00b2 *mean",
+      "loinc_name": "Oxygen saturation in Blood",
+      "loinc_code": "20564-1",
+      "ucum": "%",
+      "aggregation": "mean",
+      "value": 97.4131455399
+    },
+    {
+      "feature": "Laktat",
+      "_model_feature_name": "|BGA| (ven\u00f6s) Laktat *last",
+      "loinc_name": "Lactate [Mass/volume] in Blood",
+      "loinc_code": "59032-3",
+      "ucum": "mg/dL",
+      "aggregation": "last",
+      "value": 10.0
+    },
+    {
+      "feature": "Laktat",
+      "_model_feature_name": "|BGA| (ven\u00f6s) Laktat *mean",
+      "loinc_name": "Lactate [Mass/volume] in Blood",
+      "loinc_code": "59032-3",
+      "ucum": "mg/dL",
+      "aggregation": "mean",
+      "value": 8.0
+    },
+    {
+      "feature": "Laktat",
+      "_model_feature_name": "|BGA| (arteriell) Laktat *max",
+      "loinc_name": "Lactate [Mass/volume] in Blood",
+      "loinc_code": "59032-3",
+      "ucum": "mg/dL",
+      "aggregation": "max",
+      "value": 9.0
+    },
+    {
+      "feature": "Urinausscheidung | Urine output",
+      "_model_feature_name": "|Diurese| Urine / weight *sum",
+      "loinc_name": "Urine output",
+      "loinc_code": "9187-6",
+      "ucum": "ml",
+      "aggregation": "sum",
+      "value": 1115.5
+    },
+    {
+      "feature": "Gewicht",
+      "_model_feature_name": null,
+      "loinc_name": "Body weight",
+      "loinc_code": "29463-7",
+      "ucum": "kg",
+      "aggregation": null,
+      "value": 97.0
+    },
+    {
+      "feature": "Lactate dehydrogenase (LDH)",
+      "_model_feature_name": "|Labor| (Klin Chem) LDH *max",
+      "loinc_name": "Lactate dehydrogenase [Enzymatic activity/volume] in Serum or Plasma",
+      "loinc_code": "2532-0",
+      "ucum": "U/L",
+      "aggregation": "max",
+      "value": null
+    },
+    {
+      "feature": "Aspartate  Aminotransferase (AST)",
+      "_model_feature_name": "|Labor| (Klin Chem) AST (GOT) *min",
+      "loinc_name": "Aspartate aminotransferase.macromolecular [Enzymatic activity/volume] in Serum or Plasma",
+      "loinc_code": "48136-6",
+      "ucum": "U/L",
+      "aggregation": "min",
+      "value": 38.0
+    },
+    {
+      "feature": "Red blood cell distribution width (RDW)",
+      "_model_feature_name": "|Labor| (Kleinem Bb) Ery-Streubreite-VK *max",
+      "loinc_name": "Erythrocyte distribution width [Ratio]",
+      "loinc_code": "30385-9",
+      "ucum": "%",
+      "aggregation": "max",
+      "value": 14.9
+    },
+    {
+      "feature": "Kreatinin",
+      "_model_feature_name": "|Labor| (Klin Chem) Kreatinin (Serum) *last",
+      "loinc_name": "Creatinine [Mass/volume] in Serum or Plasma",
+      "loinc_code": "2160-0",
+      "ucum": "mg/dL",
+      "aggregation": "last",
+      "value": 0.54
+    },
+    {
+      "feature": "Bilirubin gesamt",
+      "_model_feature_name": "|Labor| (Klin Chem) Bilirubin (ges.) *max",
+      "loinc_name": "Bilirubin.conjugated+indirect [Mass/volume] in Serum or Plasma",
+      "loinc_code": "33898-8",
+      "ucum": "mg/dL",
+      "aggregation": "max",
+      "value": 1.9
+    },
+    {
+      "feature": "CRP",
+      "_model_feature_name": "|Labor| (Klin Chem) CRP *max",
+      "loinc_name": "C reactive protein [Mass/volume] in Serum or Plasma",
+      "loinc_code": "1988-5",
+      "ucum": "mg/dL",
+      "aggregation": "max",
+      "value": null
+    },
+    {
+      "feature": "Harnstoff",
+      "_model_feature_name": "|Labor| (Klin Chem) Harnstoff (Serum) *max",
+      "loinc_name": "Urea [Mass/volume] in Serum or Plasma",
+      "loinc_code": "3091-6",
+      "ucum": "mg/dL",
+      "aggregation": "max",
+      "value": 25.0
+    },
+    {
+      "feature": "H\u00e4moglobin (Hb)",
+      "_model_feature_name": "|BGA| (ven\u00f6s) Hb *mean",
+      "loinc_name": "Hemoglobin [Mass/volume] in Blood",
+      "loinc_code": "718-7",
+      "ucum": "g/dL",
+      "aggregation": "mean",
+      "value": 10.9333333333
+    },
+    {
+      "feature": "Partial Thromboplastin Time (PTT)",
+      "_model_feature_name": "|Labor| (Gerinnung) PTT *max",
+      "loinc_name": "aPTT in Blood by Coagulation assay",
+      "loinc_code": "3173-2",
+      "ucum": "sec",
+      "aggregation": "max",
+      "value": 40.0
+    },
+    {
+      "feature": "Phosphat",
+      "_model_feature_name": "|Labor| (Klin Chem) Phosphat *min",
+      "loinc_name": "Phosphate [Mass/volume] in Serum or Plasma",
+      "loinc_code": "2777-1",
+      "ucum": "mmol/L",
+      "aggregation": "min",
+      "value": null
+    },
+    {
+      "feature": "H\u00e4matokrit",
+      "_model_feature_name": "|Labor| (Kleinem Bb) H\u00e4matokrit *max",
+      "loinc_name": "Hematocrit [Volume Fraction] of Blood",
+      "loinc_code": "20570-8",
+      "ucum": "%",
+      "aggregation": "max",
+      "value": 29.7
+    },
+    {
+      "feature": "Potassium (K+)",
+      "_model_feature_name": "|BGA| (ven\u00f6s) K+ *max",
+      "loinc_name": "Potassium [Moles/volume] in Serum or Plasma",
+      "loinc_code": "2823-3",
+      "ucum": "mmol/L",
+      "aggregation": "max",
+      "value": 3.9
+    },
+    {
+      "feature": "Chloride (Cl-)",
+      "_model_feature_name": "|BGA| (arteriell) Cl- *max",
+      "loinc_name": "Chloride [Moles/volume] in Serum or Plasma",
+      "loinc_code": "2075-0",
+      "ucum": "mmol/L",
+      "aggregation": "max",
+      "value": 109.0
+    },
+    {
+      "feature": "MCHC",
+      "_model_feature_name": "|Labor| (Kleinem Bb) MCHC *last",
+      "loinc_name": "MCHC [Mass/volume]",
+      "loinc_code": "28540-3",
+      "ucum": "g/dL",
+      "aggregation": "last",
+      "value": 34.0
+    },
+    {
+      "feature": "Temperatur",
+      "_model_feature_name": "|Vital| Temp *mean",
+      "loinc_name": "Body temperature - Urinary bladder | Rectal temperature | Ear temperature ",
+      "loinc_code": "8334-5",
+      "ucum": "Cel",
+      "aggregation": "mean",
+      "value": 37.025
+    },
+    {
+      "feature": "Temperatur",
+      "_model_feature_name": "|Vital| Temp *max",
+      "loinc_name": "Body temperature - Urinary bladder | Rectal temperature | Ear temperature ",
+      "loinc_code": "8334-5",
+      "ucum": "Cel",
+      "aggregation": "max",
+      "value": 38.35
+    },
+    {
+      "feature": "Blutdruck  systolisch",
+      "_model_feature_name": "|Vital| NiBP sys *last",
+      "loinc_name": "Systolic blood pressure",
+      "loinc_code": "8480-6",
+      "ucum": "mm[Hg]",
+      "aggregation": "last",
+      "value": 126.0
+    },
+    {
+      "feature": "Blutdruck  systolisch",
+      "_model_feature_name": "|Vital| NiBP sys *max",
+      "loinc_name": "Systolic blood pressure",
+      "loinc_code": "8480-6",
+      "ucum": "mm[Hg]",
+      "aggregation": "max",
+      "value": 132.0
+    },
+    {
+      "feature": "Blutdruck  diastolisch",
+      "_model_feature_name": "|Vital| Art BP dia *last",
+      "loinc_name": "Diastolic blood pressure",
+      "loinc_code": "8462-4",
+      "ucum": "mm[Hg]",
+      "aggregation": "last",
+      "value": 59.0
+    }
+  ],
+  "1": [
+    {
+      "feature": "FiO2",
+      "_model_feature_name": "|Respiratory| FiO\u00b2 % *mean",
+      "loinc_name": "Oxygen/Inspired gas Respiratory system --on ventilator",
+      "loinc_code": "19996-8",
+      "ucum": "%",
+      "aggregation": "mean",
+      "value": 66.9610315186
+    },
+    {
+      "feature": "Sauerstoffs\u00e4ttigung",
+      "_model_feature_name": "|Vital| SpO\u00b2 *mean",
+      "loinc_name": "Oxygen saturation in Blood",
+      "loinc_code": "20564-1",
+      "ucum": "%",
+      "aggregation": "mean",
+      "value": 94.3380084151
+    },
+    {
+      "feature": "Laktat",
+      "_model_feature_name": "|BGA| (ven\u00f6s) Laktat *last",
+      "loinc_name": "Lactate [Mass/volume] in Blood",
+      "loinc_code": "59032-3",
+      "ucum": "mg/dL",
+      "aggregation": "last",
+      "value": null
+    },
+    {
+      "feature": "Laktat",
+      "_model_feature_name": "|BGA| (ven\u00f6s) Laktat *mean",
+      "loinc_name": "Lactate [Mass/volume] in Blood",
+      "loinc_code": "59032-3",
+      "ucum": "mg/dL",
+      "aggregation": "mean",
+      "value": null
+    },
+    {
+      "feature": "Laktat",
+      "_model_feature_name": "|BGA| (arteriell) Laktat *max",
+      "loinc_name": "Lactate [Mass/volume] in Blood",
+      "loinc_code": "59032-3",
+      "ucum": "mg/dL",
+      "aggregation": "max",
+      "value": 20.0
+    },
+    {
+      "feature": "Urinausscheidung | Urine output",
+      "_model_feature_name": "|Diurese| Urine / weight *sum",
+      "loinc_name": "Urine output",
+      "loinc_code": "9187-6",
+      "ucum": "ml",
+      "aggregation": "sum",
+      "value": 6111.0
+    },
+    {
+      "feature": "Gewicht",
+      "_model_feature_name": null,
+      "loinc_name": "Body weight",
+      "loinc_code": "29463-7",
+      "ucum": "kg",
+      "aggregation": null,
+      "value": 84.0
+    },
+    {
+      "feature": "Lactate dehydrogenase (LDH)",
+      "_model_feature_name": "|Labor| (Klin Chem) LDH *max",
+      "loinc_name": "Lactate dehydrogenase [Enzymatic activity/volume] in Serum or Plasma",
+      "loinc_code": "2532-0",
+      "ucum": "U/L",
+      "aggregation": "max",
+      "value": 481.0
+    },
+    {
+      "feature": "Aspartate  Aminotransferase (AST)",
+      "_model_feature_name": "|Labor| (Klin Chem) AST (GOT) *min",
+      "loinc_name": "Aspartate aminotransferase.macromolecular [Enzymatic activity/volume] in Serum or Plasma",
+      "loinc_code": "48136-6",
+      "ucum": "U/L",
+      "aggregation": "min",
+      "value": 47.0
+    },
+    {
+      "feature": "Red blood cell distribution width (RDW)",
+      "_model_feature_name": "|Labor| (Kleinem Bb) Ery-Streubreite-VK *max",
+      "loinc_name": "Erythrocyte distribution width [Ratio]",
+      "loinc_code": "30385-9",
+      "ucum": "%",
+      "aggregation": "max",
+      "value": 14.6000003815
+    },
+    {
+      "feature": "Kreatinin",
+      "_model_feature_name": "|Labor| (Klin Chem) Kreatinin (Serum) *last",
+      "loinc_name": "Creatinine [Mass/volume] in Serum or Plasma",
+      "loinc_code": "2160-0",
+      "ucum": "mg/dL",
+      "aggregation": "last",
+      "value": 4.6900000572
+    },
+    {
+      "feature": "Bilirubin gesamt",
+      "_model_feature_name": "|Labor| (Klin Chem) Bilirubin (ges.) *max",
+      "loinc_name": "Bilirubin.conjugated+indirect [Mass/volume] in Serum or Plasma",
+      "loinc_code": "33898-8",
+      "ucum": "mg/dL",
+      "aggregation": "max",
+      "value": 1.2000000477
+    },
+    {
+      "feature": "CRP",
+      "_model_feature_name": "|Labor| (Klin Chem) CRP *max",
+      "loinc_name": "C reactive protein [Mass/volume] in Serum or Plasma",
+      "loinc_code": "1988-5",
+      "ucum": "mg/dL",
+      "aggregation": "max",
+      "value": 370.0
+    },
+    {
+      "feature": "Harnstoff",
+      "_model_feature_name": "|Labor| (Klin Chem) Harnstoff (Serum) *max",
+      "loinc_name": "Urea [Mass/volume] in Serum or Plasma",
+      "loinc_code": "3091-6",
+      "ucum": "mg/dL",
+      "aggregation": "max",
+      "value": 191.0
+    },
+    {
+      "feature": "H\u00e4moglobin (Hb)",
+      "_model_feature_name": "|BGA| (ven\u00f6s) Hb *mean",
+      "loinc_name": "Hemoglobin [Mass/volume] in Blood",
+      "loinc_code": "718-7",
+      "ucum": "g/dL",
+      "aggregation": "mean",
+      "value": null
+    },
+    {
+      "feature": "Partial Thromboplastin Time (PTT)",
+      "_model_feature_name": "|Labor| (Gerinnung) PTT *max",
+      "loinc_name": "aPTT in Blood by Coagulation assay",
+      "loinc_code": "3173-2",
+      "ucum": "sec",
+      "aggregation": "max",
+      "value": 55.0
+    },
+    {
+      "feature": "Phosphat",
+      "_model_feature_name": "|Labor| (Klin Chem) Phosphat *min",
+      "loinc_name": "Phosphate [Mass/volume] in Serum or Plasma",
+      "loinc_code": "2777-1",
+      "ucum": "mmol/L",
+      "aggregation": "min",
+      "value": 2.6400001049
+    },
+    {
+      "feature": "H\u00e4matokrit",
+      "_model_feature_name": "|Labor| (Kleinem Bb) H\u00e4matokrit *max",
+      "loinc_name": "Hematocrit [Volume Fraction] of Blood",
+      "loinc_code": "20570-8",
+      "ucum": "%",
+      "aggregation": "max",
+      "value": 31.8999996185
+    },
+    {
+      "feature": "Potassium (K+)",
+      "_model_feature_name": "|BGA| (ven\u00f6s) K+ *max",
+      "loinc_name": "Potassium [Moles/volume] in Serum or Plasma",
+      "loinc_code": "2823-3",
+      "ucum": "mmol/L",
+      "aggregation": "max",
+      "value": null
+    },
+    {
+      "feature": "Chloride (Cl-)",
+      "_model_feature_name": "|BGA| (arteriell) Cl- *max",
+      "loinc_name": "Chloride [Moles/volume] in Serum or Plasma",
+      "loinc_code": "2075-0",
+      "ucum": "mmol/L",
+      "aggregation": "max",
+      "value": 112.0
+    },
+    {
+      "feature": "MCHC",
+      "_model_feature_name": "|Labor| (Kleinem Bb) MCHC *last",
+      "loinc_name": "MCHC [Mass/volume]",
+      "loinc_code": "28540-3",
+      "ucum": "g/dL",
+      "aggregation": "last",
+      "value": 32.2999992371
+    },
+    {
+      "feature": "Temperatur",
+      "_model_feature_name": "|Vital| Temp *mean",
+      "loinc_name": "Body temperature - Urinary bladder | Rectal temperature | Ear temperature ",
+      "loinc_code": "8334-5",
+      "ucum": "Cel",
+      "aggregation": "mean",
+      "value": 36.2115384615
+    },
+    {
+      "feature": "Temperatur",
+      "_model_feature_name": "|Vital| Temp *max",
+      "loinc_name": "Body temperature - Urinary bladder | Rectal temperature | Ear temperature ",
+      "loinc_code": "8334-5",
+      "ucum": "Cel",
+      "aggregation": "max",
+      "value": 37.0
+    },
+    {
+      "feature": "Blutdruck  systolisch",
+      "_model_feature_name": "|Vital| NiBP sys *last",
+      "loinc_name": "Systolic blood pressure",
+      "loinc_code": "8480-6",
+      "ucum": "mm[Hg]",
+      "aggregation": "last",
+      "value": null
+    },
+    {
+      "feature": "Blutdruck  systolisch",
+      "_model_feature_name": "|Vital| NiBP sys *max",
+      "loinc_name": "Systolic blood pressure",
+      "loinc_code": "8480-6",
+      "ucum": "mm[Hg]",
+      "aggregation": "max",
+      "value": null
+    },
+    {
+      "feature": "Blutdruck  diastolisch",
+      "_model_feature_name": "|Vital| Art BP dia *last",
+      "loinc_name": "Diastolic blood pressure",
+      "loinc_code": "8462-4",
+      "ucum": "mm[Hg]",
+      "aggregation": "last",
+      "value": 42.0
+    }
+  ],
+  "2": [
+    {
+      "feature": "FiO2",
+      "_model_feature_name": "|Respiratory| FiO\u00b2 % *mean",
+      "loinc_name": "Oxygen/Inspired gas Respiratory system --on ventilator",
+      "loinc_code": "19996-8",
+      "ucum": "%",
+      "aggregation": "mean",
+      "value": null
+    },
+    {
+      "feature": "Sauerstoffs\u00e4ttigung",
+      "_model_feature_name": "|Vital| SpO\u00b2 *mean",
+      "loinc_name": "Oxygen saturation in Blood",
+      "loinc_code": "20564-1",
+      "ucum": "%",
+      "aggregation": "mean",
+      "value": 96.3095588235
+    },
+    {
+      "feature": "Laktat",
+      "_model_feature_name": "|BGA| (ven\u00f6s) Laktat *last",
+      "loinc_name": "Lactate [Mass/volume] in Blood",
+      "loinc_code": "59032-3",
+      "ucum": "mg/dL",
+      "aggregation": "last",
+      "value": 26.0
+    },
+    {
+      "feature": "Laktat",
+      "_model_feature_name": "|BGA| (ven\u00f6s) Laktat *mean",
+      "loinc_name": "Lactate [Mass/volume] in Blood",
+      "loinc_code": "59032-3",
+      "ucum": "mg/dL",
+      "aggregation": "mean",
+      "value": 17.5
+    },
+    {
+      "feature": "Laktat",
+      "_model_feature_name": "|BGA| (arteriell) Laktat *max",
+      "loinc_name": "Lactate [Mass/volume] in Blood",
+      "loinc_code": "59032-3",
+      "ucum": "mg/dL",
+      "aggregation": "max",
+      "value": null
+    },
+    {
+      "feature": "Urinausscheidung | Urine output",
+      "_model_feature_name": "|Diurese| Urine / weight *sum",
+      "loinc_name": "Urine output",
+      "loinc_code": "9187-6",
+      "ucum": "ml",
+      "aggregation": "sum",
+      "value": 4053.3333333312
+    },
+    {
+      "feature": "Gewicht",
+      "_model_feature_name": null,
+      "loinc_name": "Body weight",
+      "loinc_code": "29463-7",
+      "ucum": "kg",
+      "aggregation": null,
+      "value": 64.0
+    },
+    {
+      "feature": "Lactate dehydrogenase (LDH)",
+      "_model_feature_name": "|Labor| (Klin Chem) LDH *max",
+      "loinc_name": "Lactate dehydrogenase [Enzymatic activity/volume] in Serum or Plasma",
+      "loinc_code": "2532-0",
+      "ucum": "U/L",
+      "aggregation": "max",
+      "value": 293.0
+    },
+    {
+      "feature": "Aspartate  Aminotransferase (AST)",
+      "_model_feature_name": "|Labor| (Klin Chem) AST (GOT) *min",
+      "loinc_name": "Aspartate aminotransferase.macromolecular [Enzymatic activity/volume] in Serum or Plasma",
+      "loinc_code": "48136-6",
+      "ucum": "U/L",
+      "aggregation": "min",
+      "value": 36.0
+    },
+    {
+      "feature": "Red blood cell distribution width (RDW)",
+      "_model_feature_name": "|Labor| (Kleinem Bb) Ery-Streubreite-VK *max",
+      "loinc_name": "Erythrocyte distribution width [Ratio]",
+      "loinc_code": "30385-9",
+      "ucum": "%",
+      "aggregation": "max",
+      "value": 22.2
+    },
+    {
+      "feature": "Kreatinin",
+      "_model_feature_name": "|Labor| (Klin Chem) Kreatinin (Serum) *last",
+      "loinc_name": "Creatinine [Mass/volume] in Serum or Plasma",
+      "loinc_code": "2160-0",
+      "ucum": "mg/dL",
+      "aggregation": "last",
+      "value": 0.59
+    },
+    {
+      "feature": "Bilirubin gesamt",
+      "_model_feature_name": "|Labor| (Klin Chem) Bilirubin (ges.) *max",
+      "loinc_name": "Bilirubin.conjugated+indirect [Mass/volume] in Serum or Plasma",
+      "loinc_code": "33898-8",
+      "ucum": "mg/dL",
+      "aggregation": "max",
+      "value": 6.3
+    },
+    {
+      "feature": "CRP",
+      "_model_feature_name": "|Labor| (Klin Chem) CRP *max",
+      "loinc_name": "C reactive protein [Mass/volume] in Serum or Plasma",
+      "loinc_code": "1988-5",
+      "ucum": "mg/dL",
+      "aggregation": "max",
+      "value": 9.3
+    },
+    {
+      "feature": "Harnstoff",
+      "_model_feature_name": "|Labor| (Klin Chem) Harnstoff (Serum) *max",
+      "loinc_name": "Urea [Mass/volume] in Serum or Plasma",
+      "loinc_code": "3091-6",
+      "ucum": "mg/dL",
+      "aggregation": "max",
+      "value": 33.0
+    },
+    {
+      "feature": "H\u00e4moglobin (Hb)",
+      "_model_feature_name": "|BGA| (ven\u00f6s) Hb *mean",
+      "loinc_name": "Hemoglobin [Mass/volume] in Blood",
+      "loinc_code": "718-7",
+      "ucum": "g/dL",
+      "aggregation": "mean",
+      "value": 9.05
+    },
+    {
+      "feature": "Partial Thromboplastin Time (PTT)",
+      "_model_feature_name": "|Labor| (Gerinnung) PTT *max",
+      "loinc_name": "aPTT in Blood by Coagulation assay",
+      "loinc_code": "3173-2",
+      "ucum": "sec",
+      "aggregation": "max",
+      "value": 61.5
+    },
+    {
+      "feature": "Phosphat",
+      "_model_feature_name": "|Labor| (Klin Chem) Phosphat *min",
+      "loinc_name": "Phosphate [Mass/volume] in Serum or Plasma",
+      "loinc_code": "2777-1",
+      "ucum": "mmol/L",
+      "aggregation": "min",
+      "value": 0.6
+    },
+    {
+      "feature": "H\u00e4matokrit",
+      "_model_feature_name": "|Labor| (Kleinem Bb) H\u00e4matokrit *max",
+      "loinc_name": "Hematocrit [Volume Fraction] of Blood",
+      "loinc_code": "20570-8",
+      "ucum": "%",
+      "aggregation": "max",
+      "value": 23.4
+    },
+    {
+      "feature": "Potassium (K+)",
+      "_model_feature_name": "|BGA| (ven\u00f6s) K+ *max",
+      "loinc_name": "Potassium [Moles/volume] in Serum or Plasma",
+      "loinc_code": "2823-3",
+      "ucum": "mmol/L",
+      "aggregation": "max",
+      "value": 4.31
+    },
+    {
+      "feature": "Chloride (Cl-)",
+      "_model_feature_name": "|BGA| (arteriell) Cl- *max",
+      "loinc_name": "Chloride [Moles/volume] in Serum or Plasma",
+      "loinc_code": "2075-0",
+      "ucum": "mmol/L",
+      "aggregation": "max",
+      "value": null
+    },
+    {
+      "feature": "MCHC",
+      "_model_feature_name": "|Labor| (Kleinem Bb) MCHC *last",
+      "loinc_name": "MCHC [Mass/volume]",
+      "loinc_code": "28540-3",
+      "ucum": "g/dL",
+      "aggregation": "last",
+      "value": 39.3
+    },
+    {
+      "feature": "Temperatur",
+      "_model_feature_name": "|Vital| Temp *mean",
+      "loinc_name": "Body temperature - Urinary bladder | Rectal temperature | Ear temperature ",
+      "loinc_code": "8334-5",
+      "ucum": "Cel",
+      "aggregation": "mean",
+      "value": 36.9
+    },
+    {
+      "feature": "Temperatur",
+      "_model_feature_name": "|Vital| Temp *max",
+      "loinc_name": "Body temperature - Urinary bladder | Rectal temperature | Ear temperature ",
+      "loinc_code": "8334-5",
+      "ucum": "Cel",
+      "aggregation": "max",
+      "value": 38.25
+    },
+    {
+      "feature": "Blutdruck  systolisch",
+      "_model_feature_name": "|Vital| NiBP sys *last",
+      "loinc_name": "Systolic blood pressure",
+      "loinc_code": "8480-6",
+      "ucum": "mm[Hg]",
+      "aggregation": "last",
+      "value": 84.0
+    },
+    {
+      "feature": "Blutdruck  systolisch",
+      "_model_feature_name": "|Vital| NiBP sys *max",
+      "loinc_name": "Systolic blood pressure",
+      "loinc_code": "8480-6",
+      "ucum": "mm[Hg]",
+      "aggregation": "max",
+      "value": 137.0
+    },
+    {
+      "feature": "Blutdruck  diastolisch",
+      "_model_feature_name": "|Vital| Art BP dia *last",
+      "loinc_name": "Diastolic blood pressure",
+      "loinc_code": "8462-4",
+      "ucum": "mm[Hg]",
+      "aggregation": "last",
+      "value": null
+    }
+  ],
+  "3": [
+    {
+      "feature": "FiO2",
+      "_model_feature_name": "|Respiratory| FiO\u00b2 % *mean",
+      "loinc_name": "Oxygen/Inspired gas Respiratory system --on ventilator",
+      "loinc_code": "19996-8",
+      "ucum": "%",
+      "aggregation": "mean",
+      "value": null
+    },
+    {
+      "feature": "Sauerstoffs\u00e4ttigung",
+      "_model_feature_name": "|Vital| SpO\u00b2 *mean",
+      "loinc_name": "Oxygen saturation in Blood",
+      "loinc_code": "20564-1",
+      "ucum": "%",
+      "aggregation": "mean",
+      "value": 94.085133418
+    },
+    {
+      "feature": "Laktat",
+      "_model_feature_name": "|BGA| (ven\u00f6s) Laktat *last",
+      "loinc_name": "Lactate [Mass/volume] in Blood",
+      "loinc_code": "59032-3",
+      "ucum": "mg/dL",
+      "aggregation": "last",
+      "value": 5.0
+    },
+    {
+      "feature": "Laktat",
+      "_model_feature_name": "|BGA| (ven\u00f6s) Laktat *mean",
+      "loinc_name": "Lactate [Mass/volume] in Blood",
+      "loinc_code": "59032-3",
+      "ucum": "mg/dL",
+      "aggregation": "mean",
+      "value": 7.5
+    },
+    {
+      "feature": "Laktat",
+      "_model_feature_name": "|BGA| (arteriell) Laktat *max",
+      "loinc_name": "Lactate [Mass/volume] in Blood",
+      "loinc_code": "59032-3",
+      "ucum": "mg/dL",
+      "aggregation": "max",
+      "value": null
+    },
+    {
+      "feature": "Urinausscheidung | Urine output",
+      "_model_feature_name": "|Diurese| Urine / weight *sum",
+      "loinc_name": "Urine output",
+      "loinc_code": "9187-6",
+      "ucum": "ml",
+      "aggregation": "sum",
+      "value": 1531.7204301090999
+    },
+    {
+      "feature": "Gewicht",
+      "_model_feature_name": null,
+      "loinc_name": "Body weight",
+      "loinc_code": "29463-7",
+      "ucum": "kg",
+      "aggregation": null,
+      "value": 77.0
+    },
+    {
+      "feature": "Lactate dehydrogenase (LDH)",
+      "_model_feature_name": "|Labor| (Klin Chem) LDH *max",
+      "loinc_name": "Lactate dehydrogenase [Enzymatic activity/volume] in Serum or Plasma",
+      "loinc_code": "2532-0",
+      "ucum": "U/L",
+      "aggregation": "max",
+      "value": 247.0
+    },
+    {
+      "feature": "Aspartate  Aminotransferase (AST)",
+      "_model_feature_name": "|Labor| (Klin Chem) AST (GOT) *min",
+      "loinc_name": "Aspartate aminotransferase.macromolecular [Enzymatic activity/volume] in Serum or Plasma",
+      "loinc_code": "48136-6",
+      "ucum": "U/L",
+      "aggregation": "min",
+      "value": 12.0
+    },
+    {
+      "feature": "Red blood cell distribution width (RDW)",
+      "_model_feature_name": "|Labor| (Kleinem Bb) Ery-Streubreite-VK *max",
+      "loinc_name": "Erythrocyte distribution width [Ratio]",
+      "loinc_code": "30385-9",
+      "ucum": "%",
+      "aggregation": "max",
+      "value": 16.3
+    },
+    {
+      "feature": "Kreatinin",
+      "_model_feature_name": "|Labor| (Klin Chem) Kreatinin (Serum) *last",
+      "loinc_name": "Creatinine [Mass/volume] in Serum or Plasma",
+      "loinc_code": "2160-0",
+      "ucum": "mg/dL",
+      "aggregation": "last",
+      "value": 1.59
+    },
+    {
+      "feature": "Bilirubin gesamt",
+      "_model_feature_name": "|Labor| (Klin Chem) Bilirubin (ges.) *max",
+      "loinc_name": "Bilirubin.conjugated+indirect [Mass/volume] in Serum or Plasma",
+      "loinc_code": "33898-8",
+      "ucum": "mg/dL",
+      "aggregation": "max",
+      "value": 0.4
+    },
+    {
+      "feature": "CRP",
+      "_model_feature_name": "|Labor| (Klin Chem) CRP *max",
+      "loinc_name": "C reactive protein [Mass/volume] in Serum or Plasma",
+      "loinc_code": "1988-5",
+      "ucum": "mg/dL",
+      "aggregation": "max",
+      "value": 27.3
+    },
+    {
+      "feature": "Harnstoff",
+      "_model_feature_name": "|Labor| (Klin Chem) Harnstoff (Serum) *max",
+      "loinc_name": "Urea [Mass/volume] in Serum or Plasma",
+      "loinc_code": "3091-6",
+      "ucum": "mg/dL",
+      "aggregation": "max",
+      "value": 82.0
+    },
+    {
+      "feature": "H\u00e4moglobin (Hb)",
+      "_model_feature_name": "|BGA| (ven\u00f6s) Hb *mean",
+      "loinc_name": "Hemoglobin [Mass/volume] in Blood",
+      "loinc_code": "718-7",
+      "ucum": "g/dL",
+      "aggregation": "mean",
+      "value": 12.3
+    },
+    {
+      "feature": "Partial Thromboplastin Time (PTT)",
+      "_model_feature_name": "|Labor| (Gerinnung) PTT *max",
+      "loinc_name": "aPTT in Blood by Coagulation assay",
+      "loinc_code": "3173-2",
+      "ucum": "sec",
+      "aggregation": "max",
+      "value": 28.6
+    },
+    {
+      "feature": "Phosphat",
+      "_model_feature_name": "|Labor| (Klin Chem) Phosphat *min",
+      "loinc_name": "Phosphate [Mass/volume] in Serum or Plasma",
+      "loinc_code": "2777-1",
+      "ucum": "mmol/L",
+      "aggregation": "min",
+      "value": null
+    },
+    {
+      "feature": "H\u00e4matokrit",
+      "_model_feature_name": "|Labor| (Kleinem Bb) H\u00e4matokrit *max",
+      "loinc_name": "Hematocrit [Volume Fraction] of Blood",
+      "loinc_code": "20570-8",
+      "ucum": "%",
+      "aggregation": "max",
+      "value": 33.4
+    },
+    {
+      "feature": "Potassium (K+)",
+      "_model_feature_name": "|BGA| (ven\u00f6s) K+ *max",
+      "loinc_name": "Potassium [Moles/volume] in Serum or Plasma",
+      "loinc_code": "2823-3",
+      "ucum": "mmol/L",
+      "aggregation": "max",
+      "value": 3.8
+    },
+    {
+      "feature": "Chloride (Cl-)",
+      "_model_feature_name": "|BGA| (arteriell) Cl- *max",
+      "loinc_name": "Chloride [Moles/volume] in Serum or Plasma",
+      "loinc_code": "2075-0",
+      "ucum": "mmol/L",
+      "aggregation": "max",
+      "value": null
+    },
+    {
+      "feature": "MCHC",
+      "_model_feature_name": "|Labor| (Kleinem Bb) MCHC *last",
+      "loinc_name": "MCHC [Mass/volume]",
+      "loinc_code": "28540-3",
+      "ucum": "g/dL",
+      "aggregation": "last",
+      "value": 33.2
+    },
+    {
+      "feature": "Temperatur",
+      "_model_feature_name": "|Vital| Temp *mean",
+      "loinc_name": "Body temperature - Urinary bladder | Rectal temperature | Ear temperature ",
+      "loinc_code": "8334-5",
+      "ucum": "Cel",
+      "aggregation": "mean",
+      "value": 36.85
+    },
+    {
+      "feature": "Temperatur",
+      "_model_feature_name": "|Vital| Temp *max",
+      "loinc_name": "Body temperature - Urinary bladder | Rectal temperature | Ear temperature ",
+      "loinc_code": "8334-5",
+      "ucum": "Cel",
+      "aggregation": "max",
+      "value": 37.2
+    },
+    {
+      "feature": "Blutdruck  systolisch",
+      "_model_feature_name": "|Vital| NiBP sys *last",
+      "loinc_name": "Systolic blood pressure",
+      "loinc_code": "8480-6",
+      "ucum": "mm[Hg]",
+      "aggregation": "last",
+      "value": 127.0
+    },
+    {
+      "feature": "Blutdruck  systolisch",
+      "_model_feature_name": "|Vital| NiBP sys *max",
+      "loinc_name": "Systolic blood pressure",
+      "loinc_code": "8480-6",
+      "ucum": "mm[Hg]",
+      "aggregation": "max",
+      "value": 144.0
+    },
+    {
+      "feature": "Blutdruck  diastolisch",
+      "_model_feature_name": "|Vital| Art BP dia *last",
+      "loinc_name": "Diastolic blood pressure",
+      "loinc_code": "8462-4",
+      "ucum": "mm[Hg]",
+      "aggregation": "last",
+      "value": null
+    }
+  ],
+  "4": [
+    {
+      "feature": "FiO2",
+      "_model_feature_name": "|Respiratory| FiO\u00b2 % *mean",
+      "loinc_name": "Oxygen/Inspired gas Respiratory system --on ventilator",
+      "loinc_code": "19996-8",
+      "ucum": "%",
+      "aggregation": "mean",
+      "value": null
+    },
+    {
+      "feature": "Sauerstoffs\u00e4ttigung",
+      "_model_feature_name": "|Vital| SpO\u00b2 *mean",
+      "loinc_name": "Oxygen saturation in Blood",
+      "loinc_code": "20564-1",
+      "ucum": "%",
+      "aggregation": "mean",
+      "value": 96.5766773163
+    },
+    {
+      "feature": "Laktat",
+      "_model_feature_name": "|BGA| (ven\u00f6s) Laktat *last",
+      "loinc_name": "Lactate [Mass/volume] in Blood",
+      "loinc_code": "59032-3",
+      "ucum": "mg/dL",
+      "aggregation": "last",
+      "value": 9.0
+    },
+    {
+      "feature": "Laktat",
+      "_model_feature_name": "|BGA| (ven\u00f6s) Laktat *mean",
+      "loinc_name": "Lactate [Mass/volume] in Blood",
+      "loinc_code": "59032-3",
+      "ucum": "mg/dL",
+      "aggregation": "mean",
+      "value": 6.5555555556
+    },
+    {
+      "feature": "Laktat",
+      "_model_feature_name": "|BGA| (arteriell) Laktat *max",
+      "loinc_name": "Lactate [Mass/volume] in Blood",
+      "loinc_code": "59032-3",
+      "ucum": "mg/dL",
+      "aggregation": "max",
+      "value": null
+    },
+    {
+      "feature": "Urinausscheidung | Urine output",
+      "_model_feature_name": "|Diurese| Urine / weight *sum",
+      "loinc_name": "Urine output",
+      "loinc_code": "9187-6",
+      "ucum": "ml",
+      "aggregation": "sum",
+      "value": 746.1538461531
+    },
+    {
+      "feature": "Gewicht",
+      "_model_feature_name": null,
+      "loinc_name": "Body weight",
+      "loinc_code": "29463-7",
+      "ucum": "kg",
+      "aggregation": null,
+      "value": 97.0
+    },
+    {
+      "feature": "Lactate dehydrogenase (LDH)",
+      "_model_feature_name": "|Labor| (Klin Chem) LDH *max",
+      "loinc_name": "Lactate dehydrogenase [Enzymatic activity/volume] in Serum or Plasma",
+      "loinc_code": "2532-0",
+      "ucum": "U/L",
+      "aggregation": "max",
+      "value": null
+    },
+    {
+      "feature": "Aspartate  Aminotransferase (AST)",
+      "_model_feature_name": "|Labor| (Klin Chem) AST (GOT) *min",
+      "loinc_name": "Aspartate aminotransferase.macromolecular [Enzymatic activity/volume] in Serum or Plasma",
+      "loinc_code": "48136-6",
+      "ucum": "U/L",
+      "aggregation": "min",
+      "value": 14.0
+    },
+    {
+      "feature": "Red blood cell distribution width (RDW)",
+      "_model_feature_name": "|Labor| (Kleinem Bb) Ery-Streubreite-VK *max",
+      "loinc_name": "Erythrocyte distribution width [Ratio]",
+      "loinc_code": "30385-9",
+      "ucum": "%",
+      "aggregation": "max",
+      "value": 11.3999996185
+    },
+    {
+      "feature": "Kreatinin",
+      "_model_feature_name": "|Labor| (Klin Chem) Kreatinin (Serum) *last",
+      "loinc_name": "Creatinine [Mass/volume] in Serum or Plasma",
+      "loinc_code": "2160-0",
+      "ucum": "mg/dL",
+      "aggregation": "last",
+      "value": 1.0099999905
+    },
+    {
+      "feature": "Bilirubin gesamt",
+      "_model_feature_name": "|Labor| (Klin Chem) Bilirubin (ges.) *max",
+      "loinc_name": "Bilirubin.conjugated+indirect [Mass/volume] in Serum or Plasma",
+      "loinc_code": "33898-8",
+      "ucum": "mg/dL",
+      "aggregation": "max",
+      "value": null
+    },
+    {
+      "feature": "CRP",
+      "_model_feature_name": "|Labor| (Klin Chem) CRP *max",
+      "loinc_name": "C reactive protein [Mass/volume] in Serum or Plasma",
+      "loinc_code": "1988-5",
+      "ucum": "mg/dL",
+      "aggregation": "max",
+      "value": null
+    },
+    {
+      "feature": "Harnstoff",
+      "_model_feature_name": "|Labor| (Klin Chem) Harnstoff (Serum) *max",
+      "loinc_name": "Urea [Mass/volume] in Serum or Plasma",
+      "loinc_code": "3091-6",
+      "ucum": "mg/dL",
+      "aggregation": "max",
+      "value": 31.0
+    },
+    {
+      "feature": "H\u00e4moglobin (Hb)",
+      "_model_feature_name": "|BGA| (ven\u00f6s) Hb *mean",
+      "loinc_name": "Hemoglobin [Mass/volume] in Blood",
+      "loinc_code": "718-7",
+      "ucum": "g/dL",
+      "aggregation": "mean",
+      "value": 15.6000000636
+    },
+    {
+      "feature": "Partial Thromboplastin Time (PTT)",
+      "_model_feature_name": "|Labor| (Gerinnung) PTT *max",
+      "loinc_name": "aPTT in Blood by Coagulation assay",
+      "loinc_code": "3173-2",
+      "ucum": "sec",
+      "aggregation": "max",
+      "value": null
+    },
+    {
+      "feature": "Phosphat",
+      "_model_feature_name": "|Labor| (Klin Chem) Phosphat *min",
+      "loinc_name": "Phosphate [Mass/volume] in Serum or Plasma",
+      "loinc_code": "2777-1",
+      "ucum": "mmol/L",
+      "aggregation": "min",
+      "value": 1.1399999857
+    },
+    {
+      "feature": "H\u00e4matokrit",
+      "_model_feature_name": "|Labor| (Kleinem Bb) H\u00e4matokrit *max",
+      "loinc_name": "Hematocrit [Volume Fraction] of Blood",
+      "loinc_code": "20570-8",
+      "ucum": "%",
+      "aggregation": "max",
+      "value": 40.7999992371
+    },
+    {
+      "feature": "Potassium (K+)",
+      "_model_feature_name": "|BGA| (ven\u00f6s) K+ *max",
+      "loinc_name": "Potassium [Moles/volume] in Serum or Plasma",
+      "loinc_code": "2823-3",
+      "ucum": "mmol/L",
+      "aggregation": "max",
+      "value": 4.9000000954
+    },
+    {
+      "feature": "Chloride (Cl-)",
+      "_model_feature_name": "|BGA| (arteriell) Cl- *max",
+      "loinc_name": "Chloride [Moles/volume] in Serum or Plasma",
+      "loinc_code": "2075-0",
+      "ucum": "mmol/L",
+      "aggregation": "max",
+      "value": null
+    },
+    {
+      "feature": "MCHC",
+      "_model_feature_name": "|Labor| (Kleinem Bb) MCHC *last",
+      "loinc_name": "MCHC [Mass/volume]",
+      "loinc_code": "28540-3",
+      "ucum": "g/dL",
+      "aggregation": "last",
+      "value": 35.7999992371
+    },
+    {
+      "feature": "Temperatur",
+      "_model_feature_name": "|Vital| Temp *mean",
+      "loinc_name": "Body temperature - Urinary bladder | Rectal temperature | Ear temperature ",
+      "loinc_code": "8334-5",
+      "ucum": "Cel",
+      "aggregation": "mean",
+      "value": null
+    },
+    {
+      "feature": "Temperatur",
+      "_model_feature_name": "|Vital| Temp *max",
+      "loinc_name": "Body temperature - Urinary bladder | Rectal temperature | Ear temperature ",
+      "loinc_code": "8334-5",
+      "ucum": "Cel",
+      "aggregation": "max",
+      "value": null
+    },
+    {
+      "feature": "Blutdruck  systolisch",
+      "_model_feature_name": "|Vital| NiBP sys *last",
+      "loinc_name": "Systolic blood pressure",
+      "loinc_code": "8480-6",
+      "ucum": "mm[Hg]",
+      "aggregation": "last",
+      "value": 136.0
+    },
+    {
+      "feature": "Blutdruck  systolisch",
+      "_model_feature_name": "|Vital| NiBP sys *max",
+      "loinc_name": "Systolic blood pressure",
+      "loinc_code": "8480-6",
+      "ucum": "mm[Hg]",
+      "aggregation": "max",
+      "value": 168.0
+    },
+    {
+      "feature": "Blutdruck  diastolisch",
+      "_model_feature_name": "|Vital| Art BP dia *last",
+      "loinc_name": "Diastolic blood pressure",
+      "loinc_code": "8462-4",
+      "ucum": "mm[Hg]",
+      "aggregation": "last",
+      "value": null
+    }
+  ],
+  "5": [
+    {
+      "feature": "FiO2",
+      "_model_feature_name": "|Respiratory| FiO\u00b2 % *mean",
+      "loinc_name": "Oxygen/Inspired gas Respiratory system --on ventilator",
+      "loinc_code": "19996-8",
+      "ucum": "%",
+      "aggregation": "mean",
+      "value": 38.3923240938
+    },
+    {
+      "feature": "Sauerstoffs\u00e4ttigung",
+      "_model_feature_name": "|Vital| SpO\u00b2 *mean",
+      "loinc_name": "Oxygen saturation in Blood",
+      "loinc_code": "20564-1",
+      "ucum": "%",
+      "aggregation": "mean",
+      "value": 98.308398024
+    },
+    {
+      "feature": "Laktat",
+      "_model_feature_name": "|BGA| (ven\u00f6s) Laktat *last",
+      "loinc_name": "Lactate [Mass/volume] in Blood",
+      "loinc_code": "59032-3",
+      "ucum": "mg/dL",
+      "aggregation": "last",
+      "value": 9.0
+    },
+    {
+      "feature": "Laktat",
+      "_model_feature_name": "|BGA| (ven\u00f6s) Laktat *mean",
+      "loinc_name": "Lactate [Mass/volume] in Blood",
+      "loinc_code": "59032-3",
+      "ucum": "mg/dL",
+      "aggregation": "mean",
+      "value": 10.5
+    },
+    {
+      "feature": "Laktat",
+      "_model_feature_name": "|BGA| (arteriell) Laktat *max",
+      "loinc_name": "Lactate [Mass/volume] in Blood",
+      "loinc_code": "59032-3",
+      "ucum": "mg/dL",
+      "aggregation": "max",
+      "value": 12.0
+    },
+    {
+      "feature": "Urinausscheidung | Urine output",
+      "_model_feature_name": "|Diurese| Urine / weight *sum",
+      "loinc_name": "Urine output",
+      "loinc_code": "9187-6",
+      "ucum": "ml",
+      "aggregation": "sum",
+      "value": 4072.727272728
+    },
+    {
+      "feature": "Gewicht",
+      "_model_feature_name": null,
+      "loinc_name": "Body weight",
+      "loinc_code": "29463-7",
+      "ucum": "kg",
+      "aggregation": null,
+      "value": 80.0
+    },
+    {
+      "feature": "Lactate dehydrogenase (LDH)",
+      "_model_feature_name": "|Labor| (Klin Chem) LDH *max",
+      "loinc_name": "Lactate dehydrogenase [Enzymatic activity/volume] in Serum or Plasma",
+      "loinc_code": "2532-0",
+      "ucum": "U/L",
+      "aggregation": "max",
+      "value": null
+    },
+    {
+      "feature": "Aspartate  Aminotransferase (AST)",
+      "_model_feature_name": "|Labor| (Klin Chem) AST (GOT) *min",
+      "loinc_name": "Aspartate aminotransferase.macromolecular [Enzymatic activity/volume] in Serum or Plasma",
+      "loinc_code": "48136-6",
+      "ucum": "U/L",
+      "aggregation": "min",
+      "value": 13.0
+    },
+    {
+      "feature": "Red blood cell distribution width (RDW)",
+      "_model_feature_name": "|Labor| (Kleinem Bb) Ery-Streubreite-VK *max",
+      "loinc_name": "Erythrocyte distribution width [Ratio]",
+      "loinc_code": "30385-9",
+      "ucum": "%",
+      "aggregation": "max",
+      "value": 14.1999998093
+    },
+    {
+      "feature": "Kreatinin",
+      "_model_feature_name": "|Labor| (Klin Chem) Kreatinin (Serum) *last",
+      "loinc_name": "Creatinine [Mass/volume] in Serum or Plasma",
+      "loinc_code": "2160-0",
+      "ucum": "mg/dL",
+      "aggregation": "last",
+      "value": 0.5600000024
+    },
+    {
+      "feature": "Bilirubin gesamt",
+      "_model_feature_name": "|Labor| (Klin Chem) Bilirubin (ges.) *max",
+      "loinc_name": "Bilirubin.conjugated+indirect [Mass/volume] in Serum or Plasma",
+      "loinc_code": "33898-8",
+      "ucum": "mg/dL",
+      "aggregation": "max",
+      "value": 1.5
+    },
+    {
+      "feature": "CRP",
+      "_model_feature_name": "|Labor| (Klin Chem) CRP *max",
+      "loinc_name": "C reactive protein [Mass/volume] in Serum or Plasma",
+      "loinc_code": "1988-5",
+      "ucum": "mg/dL",
+      "aggregation": "max",
+      "value": 133.0
+    },
+    {
+      "feature": "Harnstoff",
+      "_model_feature_name": "|Labor| (Klin Chem) Harnstoff (Serum) *max",
+      "loinc_name": "Urea [Mass/volume] in Serum or Plasma",
+      "loinc_code": "3091-6",
+      "ucum": "mg/dL",
+      "aggregation": "max",
+      "value": 42.0
+    },
+    {
+      "feature": "H\u00e4moglobin (Hb)",
+      "_model_feature_name": "|BGA| (ven\u00f6s) Hb *mean",
+      "loinc_name": "Hemoglobin [Mass/volume] in Blood",
+      "loinc_code": "718-7",
+      "ucum": "g/dL",
+      "aggregation": "mean",
+      "value": 10.125
+    },
+    {
+      "feature": "Partial Thromboplastin Time (PTT)",
+      "_model_feature_name": "|Labor| (Gerinnung) PTT *max",
+      "loinc_name": "aPTT in Blood by Coagulation assay",
+      "loinc_code": "3173-2",
+      "ucum": "sec",
+      "aggregation": "max",
+      "value": 45.7000007629
+    },
+    {
+      "feature": "Phosphat",
+      "_model_feature_name": "|Labor| (Klin Chem) Phosphat *min",
+      "loinc_name": "Phosphate [Mass/volume] in Serum or Plasma",
+      "loinc_code": "2777-1",
+      "ucum": "mmol/L",
+      "aggregation": "min",
+      "value": 0.6700000167
+    },
+    {
+      "feature": "H\u00e4matokrit",
+      "_model_feature_name": "|Labor| (Kleinem Bb) H\u00e4matokrit *max",
+      "loinc_name": "Hematocrit [Volume Fraction] of Blood",
+      "loinc_code": "20570-8",
+      "ucum": "%",
+      "aggregation": "max",
+      "value": 27.1000003815
+    },
+    {
+      "feature": "Potassium (K+)",
+      "_model_feature_name": "|BGA| (ven\u00f6s) K+ *max",
+      "loinc_name": "Potassium [Moles/volume] in Serum or Plasma",
+      "loinc_code": "2823-3",
+      "ucum": "mmol/L",
+      "aggregation": "max",
+      "value": 4.1999998093
+    },
+    {
+      "feature": "Chloride (Cl-)",
+      "_model_feature_name": "|BGA| (arteriell) Cl- *max",
+      "loinc_name": "Chloride [Moles/volume] in Serum or Plasma",
+      "loinc_code": "2075-0",
+      "ucum": "mmol/L",
+      "aggregation": "max",
+      "value": 120.0
+    },
+    {
+      "feature": "MCHC",
+      "_model_feature_name": "|Labor| (Kleinem Bb) MCHC *last",
+      "loinc_name": "MCHC [Mass/volume]",
+      "loinc_code": "28540-3",
+      "ucum": "g/dL",
+      "aggregation": "last",
+      "value": 33.2999992371
+    },
+    {
+      "feature": "Temperatur",
+      "_model_feature_name": "|Vital| Temp *mean",
+      "loinc_name": "Body temperature - Urinary bladder | Rectal temperature | Ear temperature ",
+      "loinc_code": "8334-5",
+      "ucum": "Cel",
+      "aggregation": "mean",
+      "value": 37.3897119342
+    },
+    {
+      "feature": "Temperatur",
+      "_model_feature_name": "|Vital| Temp *max",
+      "loinc_name": "Body temperature - Urinary bladder | Rectal temperature | Ear temperature ",
+      "loinc_code": "8334-5",
+      "ucum": "Cel",
+      "aggregation": "max",
+      "value": 38.2
+    },
+    {
+      "feature": "Blutdruck  systolisch",
+      "_model_feature_name": "|Vital| NiBP sys *last",
+      "loinc_name": "Systolic blood pressure",
+      "loinc_code": "8480-6",
+      "ucum": "mm[Hg]",
+      "aggregation": "last",
+      "value": 111.0
+    },
+    {
+      "feature": "Blutdruck  systolisch",
+      "_model_feature_name": "|Vital| NiBP sys *max",
+      "loinc_name": "Systolic blood pressure",
+      "loinc_code": "8480-6",
+      "ucum": "mm[Hg]",
+      "aggregation": "max",
+      "value": 128.0
+    },
+    {
+      "feature": "Blutdruck  diastolisch",
+      "_model_feature_name": "|Vital| Art BP dia *last",
+      "loinc_name": "Diastolic blood pressure",
+      "loinc_code": "8462-4",
+      "ucum": "mm[Hg]",
+      "aggregation": "last",
+      "value": 45.0
+    }
+  ],
+  "6": [
+    {
+      "feature": "FiO2",
+      "_model_feature_name": "|Respiratory| FiO\u00b2 % *mean",
+      "loinc_name": "Oxygen/Inspired gas Respiratory system --on ventilator",
+      "loinc_code": "19996-8",
+      "ucum": "%",
+      "aggregation": "mean",
+      "value": null
+    },
+    {
+      "feature": "Sauerstoffs\u00e4ttigung",
+      "_model_feature_name": "|Vital| SpO\u00b2 *mean",
+      "loinc_name": "Oxygen saturation in Blood",
+      "loinc_code": "20564-1",
+      "ucum": "%",
+      "aggregation": "mean",
+      "value": 98.2552529183
+    },
+    {
+      "feature": "Laktat",
+      "_model_feature_name": "|BGA| (ven\u00f6s) Laktat *last",
+      "loinc_name": "Lactate [Mass/volume] in Blood",
+      "loinc_code": "59032-3",
+      "ucum": "mg/dL",
+      "aggregation": "last",
+      "value": 21.0
+    },
+    {
+      "feature": "Laktat",
+      "_model_feature_name": "|BGA| (ven\u00f6s) Laktat *mean",
+      "loinc_name": "Lactate [Mass/volume] in Blood",
+      "loinc_code": "59032-3",
+      "ucum": "mg/dL",
+      "aggregation": "mean",
+      "value": 15.6
+    },
+    {
+      "feature": "Laktat",
+      "_model_feature_name": "|BGA| (arteriell) Laktat *max",
+      "loinc_name": "Lactate [Mass/volume] in Blood",
+      "loinc_code": "59032-3",
+      "ucum": "mg/dL",
+      "aggregation": "max",
+      "value": null
+    },
+    {
+      "feature": "Urinausscheidung | Urine output",
+      "_model_feature_name": "|Diurese| Urine / weight *sum",
+      "loinc_name": "Urine output",
+      "loinc_code": "9187-6",
+      "ucum": "ml",
+      "aggregation": "sum",
+      "value": 3290.7058823505
+    },
+    {
+      "feature": "Gewicht",
+      "_model_feature_name": null,
+      "loinc_name": "Body weight",
+      "loinc_code": "29463-7",
+      "ucum": "kg",
+      "aggregation": null,
+      "value": 83.0
+    },
+    {
+      "feature": "Lactate dehydrogenase (LDH)",
+      "_model_feature_name": "|Labor| (Klin Chem) LDH *max",
+      "loinc_name": "Lactate dehydrogenase [Enzymatic activity/volume] in Serum or Plasma",
+      "loinc_code": "2532-0",
+      "ucum": "U/L",
+      "aggregation": "max",
+      "value": 161.0
+    },
+    {
+      "feature": "Aspartate  Aminotransferase (AST)",
+      "_model_feature_name": "|Labor| (Klin Chem) AST (GOT) *min",
+      "loinc_name": "Aspartate aminotransferase.macromolecular [Enzymatic activity/volume] in Serum or Plasma",
+      "loinc_code": "48136-6",
+      "ucum": "U/L",
+      "aggregation": "min",
+      "value": 47.0
+    },
+    {
+      "feature": "Red blood cell distribution width (RDW)",
+      "_model_feature_name": "|Labor| (Kleinem Bb) Ery-Streubreite-VK *max",
+      "loinc_name": "Erythrocyte distribution width [Ratio]",
+      "loinc_code": "30385-9",
+      "ucum": "%",
+      "aggregation": "max",
+      "value": 13.8
+    },
+    {
+      "feature": "Kreatinin",
+      "_model_feature_name": "|Labor| (Klin Chem) Kreatinin (Serum) *last",
+      "loinc_name": "Creatinine [Mass/volume] in Serum or Plasma",
+      "loinc_code": "2160-0",
+      "ucum": "mg/dL",
+      "aggregation": "last",
+      "value": 1.31
+    },
+    {
+      "feature": "Bilirubin gesamt",
+      "_model_feature_name": "|Labor| (Klin Chem) Bilirubin (ges.) *max",
+      "loinc_name": "Bilirubin.conjugated+indirect [Mass/volume] in Serum or Plasma",
+      "loinc_code": "33898-8",
+      "ucum": "mg/dL",
+      "aggregation": "max",
+      "value": 6.0
+    },
+    {
+      "feature": "CRP",
+      "_model_feature_name": "|Labor| (Klin Chem) CRP *max",
+      "loinc_name": "C reactive protein [Mass/volume] in Serum or Plasma",
+      "loinc_code": "1988-5",
+      "ucum": "mg/dL",
+      "aggregation": "max",
+      "value": 6.3
+    },
+    {
+      "feature": "Harnstoff",
+      "_model_feature_name": "|Labor| (Klin Chem) Harnstoff (Serum) *max",
+      "loinc_name": "Urea [Mass/volume] in Serum or Plasma",
+      "loinc_code": "3091-6",
+      "ucum": "mg/dL",
+      "aggregation": "max",
+      "value": 58.0
+    },
+    {
+      "feature": "H\u00e4moglobin (Hb)",
+      "_model_feature_name": "|BGA| (ven\u00f6s) Hb *mean",
+      "loinc_name": "Hemoglobin [Mass/volume] in Blood",
+      "loinc_code": "718-7",
+      "ucum": "g/dL",
+      "aggregation": "mean",
+      "value": 11.36
+    },
+    {
+      "feature": "Partial Thromboplastin Time (PTT)",
+      "_model_feature_name": "|Labor| (Gerinnung) PTT *max",
+      "loinc_name": "aPTT in Blood by Coagulation assay",
+      "loinc_code": "3173-2",
+      "ucum": "sec",
+      "aggregation": "max",
+      "value": 58.9
+    },
+    {
+      "feature": "Phosphat",
+      "_model_feature_name": "|Labor| (Klin Chem) Phosphat *min",
+      "loinc_name": "Phosphate [Mass/volume] in Serum or Plasma",
+      "loinc_code": "2777-1",
+      "ucum": "mmol/L",
+      "aggregation": "min",
+      "value": 0.86
+    },
+    {
+      "feature": "H\u00e4matokrit",
+      "_model_feature_name": "|Labor| (Kleinem Bb) H\u00e4matokrit *max",
+      "loinc_name": "Hematocrit [Volume Fraction] of Blood",
+      "loinc_code": "20570-8",
+      "ucum": "%",
+      "aggregation": "max",
+      "value": 31.1
+    },
+    {
+      "feature": "Potassium (K+)",
+      "_model_feature_name": "|BGA| (ven\u00f6s) K+ *max",
+      "loinc_name": "Potassium [Moles/volume] in Serum or Plasma",
+      "loinc_code": "2823-3",
+      "ucum": "mmol/L",
+      "aggregation": "max",
+      "value": 4.18
+    },
+    {
+      "feature": "Chloride (Cl-)",
+      "_model_feature_name": "|BGA| (arteriell) Cl- *max",
+      "loinc_name": "Chloride [Moles/volume] in Serum or Plasma",
+      "loinc_code": "2075-0",
+      "ucum": "mmol/L",
+      "aggregation": "max",
+      "value": null
+    },
+    {
+      "feature": "MCHC",
+      "_model_feature_name": "|Labor| (Kleinem Bb) MCHC *last",
+      "loinc_name": "MCHC [Mass/volume]",
+      "loinc_code": "28540-3",
+      "ucum": "g/dL",
+      "aggregation": "last",
+      "value": 36.0
+    },
+    {
+      "feature": "Temperatur",
+      "_model_feature_name": "|Vital| Temp *mean",
+      "loinc_name": "Body temperature - Urinary bladder | Rectal temperature | Ear temperature ",
+      "loinc_code": "8334-5",
+      "ucum": "Cel",
+      "aggregation": "mean",
+      "value": 37.1238216561
+    },
+    {
+      "feature": "Temperatur",
+      "_model_feature_name": "|Vital| Temp *max",
+      "loinc_name": "Body temperature - Urinary bladder | Rectal temperature | Ear temperature ",
+      "loinc_code": "8334-5",
+      "ucum": "Cel",
+      "aggregation": "max",
+      "value": 37.4
+    },
+    {
+      "feature": "Blutdruck  systolisch",
+      "_model_feature_name": "|Vital| NiBP sys *last",
+      "loinc_name": "Systolic blood pressure",
+      "loinc_code": "8480-6",
+      "ucum": "mm[Hg]",
+      "aggregation": "last",
+      "value": 117.0
+    },
+    {
+      "feature": "Blutdruck  systolisch",
+      "_model_feature_name": "|Vital| NiBP sys *max",
+      "loinc_name": "Systolic blood pressure",
+      "loinc_code": "8480-6",
+      "ucum": "mm[Hg]",
+      "aggregation": "max",
+      "value": 125.0
+    },
+    {
+      "feature": "Blutdruck  diastolisch",
+      "_model_feature_name": "|Vital| Art BP dia *last",
+      "loinc_name": "Diastolic blood pressure",
+      "loinc_code": "8462-4",
+      "ucum": "mm[Hg]",
+      "aggregation": "last",
+      "value": null
+    }
+  ],
+  "7": [
+    {
+      "feature": "FiO2",
+      "_model_feature_name": "|Respiratory| FiO\u00b2 % *mean",
+      "loinc_name": "Oxygen/Inspired gas Respiratory system --on ventilator",
+      "loinc_code": "19996-8",
+      "ucum": "%",
+      "aggregation": "mean",
+      "value": null
+    },
+    {
+      "feature": "Sauerstoffs\u00e4ttigung",
+      "_model_feature_name": "|Vital| SpO\u00b2 *mean",
+      "loinc_name": "Oxygen saturation in Blood",
+      "loinc_code": "20564-1",
+      "ucum": "%",
+      "aggregation": "mean",
+      "value": 96.0781499203
+    },
+    {
+      "feature": "Laktat",
+      "_model_feature_name": "|BGA| (ven\u00f6s) Laktat *last",
+      "loinc_name": "Lactate [Mass/volume] in Blood",
+      "loinc_code": "59032-3",
+      "ucum": "mg/dL",
+      "aggregation": "last",
+      "value": 49.0
+    },
+    {
+      "feature": "Laktat",
+      "_model_feature_name": "|BGA| (ven\u00f6s) Laktat *mean",
+      "loinc_name": "Lactate [Mass/volume] in Blood",
+      "loinc_code": "59032-3",
+      "ucum": "mg/dL",
+      "aggregation": "mean",
+      "value": 48.125
+    },
+    {
+      "feature": "Laktat",
+      "_model_feature_name": "|BGA| (arteriell) Laktat *max",
+      "loinc_name": "Lactate [Mass/volume] in Blood",
+      "loinc_code": "59032-3",
+      "ucum": "mg/dL",
+      "aggregation": "max",
+      "value": null
+    },
+    {
+      "feature": "Urinausscheidung | Urine output",
+      "_model_feature_name": "|Diurese| Urine / weight *sum",
+      "loinc_name": "Urine output",
+      "loinc_code": "9187-6",
+      "ucum": "ml",
+      "aggregation": "sum",
+      "value": 3610.1204819262002
+    },
+    {
+      "feature": "Gewicht",
+      "_model_feature_name": null,
+      "loinc_name": "Body weight",
+      "loinc_code": "29463-7",
+      "ucum": "kg",
+      "aggregation": null,
+      "value": 66.0
+    },
+    {
+      "feature": "Lactate dehydrogenase (LDH)",
+      "_model_feature_name": "|Labor| (Klin Chem) LDH *max",
+      "loinc_name": "Lactate dehydrogenase [Enzymatic activity/volume] in Serum or Plasma",
+      "loinc_code": "2532-0",
+      "ucum": "U/L",
+      "aggregation": "max",
+      "value": 326.0
+    },
+    {
+      "feature": "Aspartate  Aminotransferase (AST)",
+      "_model_feature_name": "|Labor| (Klin Chem) AST (GOT) *min",
+      "loinc_name": "Aspartate aminotransferase.macromolecular [Enzymatic activity/volume] in Serum or Plasma",
+      "loinc_code": "48136-6",
+      "ucum": "U/L",
+      "aggregation": "min",
+      "value": 110.0
+    },
+    {
+      "feature": "Red blood cell distribution width (RDW)",
+      "_model_feature_name": "|Labor| (Kleinem Bb) Ery-Streubreite-VK *max",
+      "loinc_name": "Erythrocyte distribution width [Ratio]",
+      "loinc_code": "30385-9",
+      "ucum": "%",
+      "aggregation": "max",
+      "value": 13.1999998093
+    },
+    {
+      "feature": "Kreatinin",
+      "_model_feature_name": "|Labor| (Klin Chem) Kreatinin (Serum) *last",
+      "loinc_name": "Creatinine [Mass/volume] in Serum or Plasma",
+      "loinc_code": "2160-0",
+      "ucum": "mg/dL",
+      "aggregation": "last",
+      "value": 1.0199999809
+    },
+    {
+      "feature": "Bilirubin gesamt",
+      "_model_feature_name": "|Labor| (Klin Chem) Bilirubin (ges.) *max",
+      "loinc_name": "Bilirubin.conjugated+indirect [Mass/volume] in Serum or Plasma",
+      "loinc_code": "33898-8",
+      "ucum": "mg/dL",
+      "aggregation": "max",
+      "value": 0.6999999881
+    },
+    {
+      "feature": "CRP",
+      "_model_feature_name": "|Labor| (Klin Chem) CRP *max",
+      "loinc_name": "C reactive protein [Mass/volume] in Serum or Plasma",
+      "loinc_code": "1988-5",
+      "ucum": "mg/dL",
+      "aggregation": "max",
+      "value": 1.2000000477
+    },
+    {
+      "feature": "Harnstoff",
+      "_model_feature_name": "|Labor| (Klin Chem) Harnstoff (Serum) *max",
+      "loinc_name": "Urea [Mass/volume] in Serum or Plasma",
+      "loinc_code": "3091-6",
+      "ucum": "mg/dL",
+      "aggregation": "max",
+      "value": 31.0
+    },
+    {
+      "feature": "H\u00e4moglobin (Hb)",
+      "_model_feature_name": "|BGA| (ven\u00f6s) Hb *mean",
+      "loinc_name": "Hemoglobin [Mass/volume] in Blood",
+      "loinc_code": "718-7",
+      "ucum": "g/dL",
+      "aggregation": "mean",
+      "value": 14.7875000238
+    },
+    {
+      "feature": "Partial Thromboplastin Time (PTT)",
+      "_model_feature_name": "|Labor| (Gerinnung) PTT *max",
+      "loinc_name": "aPTT in Blood by Coagulation assay",
+      "loinc_code": "3173-2",
+      "ucum": "sec",
+      "aggregation": "max",
+      "value": 23.5
+    },
+    {
+      "feature": "Phosphat",
+      "_model_feature_name": "|Labor| (Klin Chem) Phosphat *min",
+      "loinc_name": "Phosphate [Mass/volume] in Serum or Plasma",
+      "loinc_code": "2777-1",
+      "ucum": "mmol/L",
+      "aggregation": "min",
+      "value": 0.6200000048
+    },
+    {
+      "feature": "H\u00e4matokrit",
+      "_model_feature_name": "|Labor| (Kleinem Bb) H\u00e4matokrit *max",
+      "loinc_name": "Hematocrit [Volume Fraction] of Blood",
+      "loinc_code": "20570-8",
+      "ucum": "%",
+      "aggregation": "max",
+      "value": 43.0
+    },
+    {
+      "feature": "Potassium (K+)",
+      "_model_feature_name": "|BGA| (ven\u00f6s) K+ *max",
+      "loinc_name": "Potassium [Moles/volume] in Serum or Plasma",
+      "loinc_code": "2823-3",
+      "ucum": "mmol/L",
+      "aggregation": "max",
+      "value": 4.1999998093
+    },
+    {
+      "feature": "Chloride (Cl-)",
+      "_model_feature_name": "|BGA| (arteriell) Cl- *max",
+      "loinc_name": "Chloride [Moles/volume] in Serum or Plasma",
+      "loinc_code": "2075-0",
+      "ucum": "mmol/L",
+      "aggregation": "max",
+      "value": null
+    },
+    {
+      "feature": "MCHC",
+      "_model_feature_name": "|Labor| (Kleinem Bb) MCHC *last",
+      "loinc_name": "MCHC [Mass/volume]",
+      "loinc_code": "28540-3",
+      "ucum": "g/dL",
+      "aggregation": "last",
+      "value": 34.9000015259
+    },
+    {
+      "feature": "Temperatur",
+      "_model_feature_name": "|Vital| Temp *mean",
+      "loinc_name": "Body temperature - Urinary bladder | Rectal temperature | Ear temperature ",
+      "loinc_code": "8334-5",
+      "ucum": "Cel",
+      "aggregation": "mean",
+      "value": 36.75
+    },
+    {
+      "feature": "Temperatur",
+      "_model_feature_name": "|Vital| Temp *max",
+      "loinc_name": "Body temperature - Urinary bladder | Rectal temperature | Ear temperature ",
+      "loinc_code": "8334-5",
+      "ucum": "Cel",
+      "aggregation": "max",
+      "value": 37.75
+    },
+    {
+      "feature": "Blutdruck  systolisch",
+      "_model_feature_name": "|Vital| NiBP sys *last",
+      "loinc_name": "Systolic blood pressure",
+      "loinc_code": "8480-6",
+      "ucum": "mm[Hg]",
+      "aggregation": "last",
+      "value": 152.0
+    },
+    {
+      "feature": "Blutdruck  systolisch",
+      "_model_feature_name": "|Vital| NiBP sys *max",
+      "loinc_name": "Systolic blood pressure",
+      "loinc_code": "8480-6",
+      "ucum": "mm[Hg]",
+      "aggregation": "max",
+      "value": 164.0
+    },
+    {
+      "feature": "Blutdruck  diastolisch",
+      "_model_feature_name": "|Vital| Art BP dia *last",
+      "loinc_name": "Diastolic blood pressure",
+      "loinc_code": "8462-4",
+      "ucum": "mm[Hg]",
+      "aggregation": "last",
+      "value": null
+    }
+  ],
+  "8": [
+    {
+      "feature": "FiO2",
+      "_model_feature_name": "|Respiratory| FiO\u00b2 % *mean",
+      "loinc_name": "Oxygen/Inspired gas Respiratory system --on ventilator",
+      "loinc_code": "19996-8",
+      "ucum": "%",
+      "aggregation": "mean",
+      "value": null
+    },
+    {
+      "feature": "Sauerstoffs\u00e4ttigung",
+      "_model_feature_name": "|Vital| SpO\u00b2 *mean",
+      "loinc_name": "Oxygen saturation in Blood",
+      "loinc_code": "20564-1",
+      "ucum": "%",
+      "aggregation": "mean",
+      "value": 95.6137724551
+    },
+    {
+      "feature": "Laktat",
+      "_model_feature_name": "|BGA| (ven\u00f6s) Laktat *last",
+      "loinc_name": "Lactate [Mass/volume] in Blood",
+      "loinc_code": "59032-3",
+      "ucum": "mg/dL",
+      "aggregation": "last",
+      "value": 18.0
+    },
+    {
+      "feature": "Laktat",
+      "_model_feature_name": "|BGA| (ven\u00f6s) Laktat *mean",
+      "loinc_name": "Lactate [Mass/volume] in Blood",
+      "loinc_code": "59032-3",
+      "ucum": "mg/dL",
+      "aggregation": "mean",
+      "value": 18.0
+    },
+    {
+      "feature": "Laktat",
+      "_model_feature_name": "|BGA| (arteriell) Laktat *max",
+      "loinc_name": "Lactate [Mass/volume] in Blood",
+      "loinc_code": "59032-3",
+      "ucum": "mg/dL",
+      "aggregation": "max",
+      "value": 12.0
+    },
+    {
+      "feature": "Urinausscheidung | Urine output",
+      "_model_feature_name": "|Diurese| Urine / weight *sum",
+      "loinc_name": "Urine output",
+      "loinc_code": "9187-6",
+      "ucum": "ml",
+      "aggregation": "sum",
+      "value": 3105.3846153858
+    },
+    {
+      "feature": "Gewicht",
+      "_model_feature_name": null,
+      "loinc_name": "Body weight",
+      "loinc_code": "29463-7",
+      "ucum": "kg",
+      "aggregation": null,
+      "value": 66.0
+    },
+    {
+      "feature": "Lactate dehydrogenase (LDH)",
+      "_model_feature_name": "|Labor| (Klin Chem) LDH *max",
+      "loinc_name": "Lactate dehydrogenase [Enzymatic activity/volume] in Serum or Plasma",
+      "loinc_code": "2532-0",
+      "ucum": "U/L",
+      "aggregation": "max",
+      "value": 288.0
+    },
+    {
+      "feature": "Aspartate  Aminotransferase (AST)",
+      "_model_feature_name": "|Labor| (Klin Chem) AST (GOT) *min",
+      "loinc_name": "Aspartate aminotransferase.macromolecular [Enzymatic activity/volume] in Serum or Plasma",
+      "loinc_code": "48136-6",
+      "ucum": "U/L",
+      "aggregation": "min",
+      "value": 48.0
+    },
+    {
+      "feature": "Red blood cell distribution width (RDW)",
+      "_model_feature_name": "|Labor| (Kleinem Bb) Ery-Streubreite-VK *max",
+      "loinc_name": "Erythrocyte distribution width [Ratio]",
+      "loinc_code": "30385-9",
+      "ucum": "%",
+      "aggregation": "max",
+      "value": 14.0
+    },
+    {
+      "feature": "Kreatinin",
+      "_model_feature_name": "|Labor| (Klin Chem) Kreatinin (Serum) *last",
+      "loinc_name": "Creatinine [Mass/volume] in Serum or Plasma",
+      "loinc_code": "2160-0",
+      "ucum": "mg/dL",
+      "aggregation": "last",
+      "value": 4.16
+    },
+    {
+      "feature": "Bilirubin gesamt",
+      "_model_feature_name": "|Labor| (Klin Chem) Bilirubin (ges.) *max",
+      "loinc_name": "Bilirubin.conjugated+indirect [Mass/volume] in Serum or Plasma",
+      "loinc_code": "33898-8",
+      "ucum": "mg/dL",
+      "aggregation": "max",
+      "value": 8.1
+    },
+    {
+      "feature": "CRP",
+      "_model_feature_name": "|Labor| (Klin Chem) CRP *max",
+      "loinc_name": "C reactive protein [Mass/volume] in Serum or Plasma",
+      "loinc_code": "1988-5",
+      "ucum": "mg/dL",
+      "aggregation": "max",
+      "value": 298.0
+    },
+    {
+      "feature": "Harnstoff",
+      "_model_feature_name": "|Labor| (Klin Chem) Harnstoff (Serum) *max",
+      "loinc_name": "Urea [Mass/volume] in Serum or Plasma",
+      "loinc_code": "3091-6",
+      "ucum": "mg/dL",
+      "aggregation": "max",
+      "value": 232.0
+    },
+    {
+      "feature": "H\u00e4moglobin (Hb)",
+      "_model_feature_name": "|BGA| (ven\u00f6s) Hb *mean",
+      "loinc_name": "Hemoglobin [Mass/volume] in Blood",
+      "loinc_code": "718-7",
+      "ucum": "g/dL",
+      "aggregation": "mean",
+      "value": 12.1
+    },
+    {
+      "feature": "Partial Thromboplastin Time (PTT)",
+      "_model_feature_name": "|Labor| (Gerinnung) PTT *max",
+      "loinc_name": "aPTT in Blood by Coagulation assay",
+      "loinc_code": "3173-2",
+      "ucum": "sec",
+      "aggregation": "max",
+      "value": 44.0
+    },
+    {
+      "feature": "Phosphat",
+      "_model_feature_name": "|Labor| (Klin Chem) Phosphat *min",
+      "loinc_name": "Phosphate [Mass/volume] in Serum or Plasma",
+      "loinc_code": "2777-1",
+      "ucum": "mmol/L",
+      "aggregation": "min",
+      "value": null
+    },
+    {
+      "feature": "H\u00e4matokrit",
+      "_model_feature_name": "|Labor| (Kleinem Bb) H\u00e4matokrit *max",
+      "loinc_name": "Hematocrit [Volume Fraction] of Blood",
+      "loinc_code": "20570-8",
+      "ucum": "%",
+      "aggregation": "max",
+      "value": 34.5
+    },
+    {
+      "feature": "Potassium (K+)",
+      "_model_feature_name": "|BGA| (ven\u00f6s) K+ *max",
+      "loinc_name": "Potassium [Moles/volume] in Serum or Plasma",
+      "loinc_code": "2823-3",
+      "ucum": "mmol/L",
+      "aggregation": "max",
+      "value": 4.11
+    },
+    {
+      "feature": "Chloride (Cl-)",
+      "_model_feature_name": "|BGA| (arteriell) Cl- *max",
+      "loinc_name": "Chloride [Moles/volume] in Serum or Plasma",
+      "loinc_code": "2075-0",
+      "ucum": "mmol/L",
+      "aggregation": "max",
+      "value": 106.0
+    },
+    {
+      "feature": "MCHC",
+      "_model_feature_name": "|Labor| (Kleinem Bb) MCHC *last",
+      "loinc_name": "MCHC [Mass/volume]",
+      "loinc_code": "28540-3",
+      "ucum": "g/dL",
+      "aggregation": "last",
+      "value": 35.9
+    },
+    {
+      "feature": "Temperatur",
+      "_model_feature_name": "|Vital| Temp *mean",
+      "loinc_name": "Body temperature - Urinary bladder | Rectal temperature | Ear temperature ",
+      "loinc_code": "8334-5",
+      "ucum": "Cel",
+      "aggregation": "mean",
+      "value": 36.4800910125
+    },
+    {
+      "feature": "Temperatur",
+      "_model_feature_name": "|Vital| Temp *max",
+      "loinc_name": "Body temperature - Urinary bladder | Rectal temperature | Ear temperature ",
+      "loinc_code": "8334-5",
+      "ucum": "Cel",
+      "aggregation": "max",
+      "value": 36.8
+    },
+    {
+      "feature": "Blutdruck  systolisch",
+      "_model_feature_name": "|Vital| NiBP sys *last",
+      "loinc_name": "Systolic blood pressure",
+      "loinc_code": "8480-6",
+      "ucum": "mm[Hg]",
+      "aggregation": "last",
+      "value": 118.0
+    },
+    {
+      "feature": "Blutdruck  systolisch",
+      "_model_feature_name": "|Vital| NiBP sys *max",
+      "loinc_name": "Systolic blood pressure",
+      "loinc_code": "8480-6",
+      "ucum": "mm[Hg]",
+      "aggregation": "max",
+      "value": 124.0
+    },
+    {
+      "feature": "Blutdruck  diastolisch",
+      "_model_feature_name": "|Vital| Art BP dia *last",
+      "loinc_name": "Diastolic blood pressure",
+      "loinc_code": "8462-4",
+      "ucum": "mm[Hg]",
+      "aggregation": "last",
+      "value": 79.0
+    }
+  ],
+  "9": [
+    {
+      "feature": "FiO2",
+      "_model_feature_name": "|Respiratory| FiO\u00b2 % *mean",
+      "loinc_name": "Oxygen/Inspired gas Respiratory system --on ventilator",
+      "loinc_code": "19996-8",
+      "ucum": "%",
+      "aggregation": "mean",
+      "value": null
+    },
+    {
+      "feature": "Sauerstoffs\u00e4ttigung",
+      "_model_feature_name": "|Vital| SpO\u00b2 *mean",
+      "loinc_name": "Oxygen saturation in Blood",
+      "loinc_code": "20564-1",
+      "ucum": "%",
+      "aggregation": "mean",
+      "value": 94.3196159122
+    },
+    {
+      "feature": "Laktat",
+      "_model_feature_name": "|BGA| (ven\u00f6s) Laktat *last",
+      "loinc_name": "Lactate [Mass/volume] in Blood",
+      "loinc_code": "59032-3",
+      "ucum": "mg/dL",
+      "aggregation": "last",
+      "value": 20.0
+    },
+    {
+      "feature": "Laktat",
+      "_model_feature_name": "|BGA| (ven\u00f6s) Laktat *mean",
+      "loinc_name": "Lactate [Mass/volume] in Blood",
+      "loinc_code": "59032-3",
+      "ucum": "mg/dL",
+      "aggregation": "mean",
+      "value": 18.0
+    },
+    {
+      "feature": "Laktat",
+      "_model_feature_name": "|BGA| (arteriell) Laktat *max",
+      "loinc_name": "Lactate [Mass/volume] in Blood",
+      "loinc_code": "59032-3",
+      "ucum": "mg/dL",
+      "aggregation": "max",
+      "value": null
+    },
+    {
+      "feature": "Urinausscheidung | Urine output",
+      "_model_feature_name": "|Diurese| Urine / weight *sum",
+      "loinc_name": "Urine output",
+      "loinc_code": "9187-6",
+      "ucum": "ml",
+      "aggregation": "sum",
+      "value": 943.9655172444
+    },
+    {
+      "feature": "Gewicht",
+      "_model_feature_name": null,
+      "loinc_name": "Body weight",
+      "loinc_code": "29463-7",
+      "ucum": "kg",
+      "aggregation": null,
+      "value": 73.0
+    },
+    {
+      "feature": "Lactate dehydrogenase (LDH)",
+      "_model_feature_name": "|Labor| (Klin Chem) LDH *max",
+      "loinc_name": "Lactate dehydrogenase [Enzymatic activity/volume] in Serum or Plasma",
+      "loinc_code": "2532-0",
+      "ucum": "U/L",
+      "aggregation": "max",
+      "value": 312.0
+    },
+    {
+      "feature": "Aspartate  Aminotransferase (AST)",
+      "_model_feature_name": "|Labor| (Klin Chem) AST (GOT) *min",
+      "loinc_name": "Aspartate aminotransferase.macromolecular [Enzymatic activity/volume] in Serum or Plasma",
+      "loinc_code": "48136-6",
+      "ucum": "U/L",
+      "aggregation": "min",
+      "value": 235.0
+    },
+    {
+      "feature": "Red blood cell distribution width (RDW)",
+      "_model_feature_name": "|Labor| (Kleinem Bb) Ery-Streubreite-VK *max",
+      "loinc_name": "Erythrocyte distribution width [Ratio]",
+      "loinc_code": "30385-9",
+      "ucum": "%",
+      "aggregation": "max",
+      "value": 17.7999992371
+    },
+    {
+      "feature": "Kreatinin",
+      "_model_feature_name": "|Labor| (Klin Chem) Kreatinin (Serum) *last",
+      "loinc_name": "Creatinine [Mass/volume] in Serum or Plasma",
+      "loinc_code": "2160-0",
+      "ucum": "mg/dL",
+      "aggregation": "last",
+      "value": 0.9599999785
+    },
+    {
+      "feature": "Bilirubin gesamt",
+      "_model_feature_name": "|Labor| (Klin Chem) Bilirubin (ges.) *max",
+      "loinc_name": "Bilirubin.conjugated+indirect [Mass/volume] in Serum or Plasma",
+      "loinc_code": "33898-8",
+      "ucum": "mg/dL",
+      "aggregation": "max",
+      "value": 10.1999998093
+    },
+    {
+      "feature": "CRP",
+      "_model_feature_name": "|Labor| (Klin Chem) CRP *max",
+      "loinc_name": "C reactive protein [Mass/volume] in Serum or Plasma",
+      "loinc_code": "1988-5",
+      "ucum": "mg/dL",
+      "aggregation": "max",
+      "value": 46.7999992371
+    },
+    {
+      "feature": "Harnstoff",
+      "_model_feature_name": "|Labor| (Klin Chem) Harnstoff (Serum) *max",
+      "loinc_name": "Urea [Mass/volume] in Serum or Plasma",
+      "loinc_code": "3091-6",
+      "ucum": "mg/dL",
+      "aggregation": "max",
+      "value": 15.0
+    },
+    {
+      "feature": "H\u00e4moglobin (Hb)",
+      "_model_feature_name": "|BGA| (ven\u00f6s) Hb *mean",
+      "loinc_name": "Hemoglobin [Mass/volume] in Blood",
+      "loinc_code": "718-7",
+      "ucum": "g/dL",
+      "aggregation": "mean",
+      "value": 12.2000002861
+    },
+    {
+      "feature": "Partial Thromboplastin Time (PTT)",
+      "_model_feature_name": "|Labor| (Gerinnung) PTT *max",
+      "loinc_name": "aPTT in Blood by Coagulation assay",
+      "loinc_code": "3173-2",
+      "ucum": "sec",
+      "aggregation": "max",
+      "value": 31.2000007629
+    },
+    {
+      "feature": "Phosphat",
+      "_model_feature_name": "|Labor| (Klin Chem) Phosphat *min",
+      "loinc_name": "Phosphate [Mass/volume] in Serum or Plasma",
+      "loinc_code": "2777-1",
+      "ucum": "mmol/L",
+      "aggregation": "min",
+      "value": null
+    },
+    {
+      "feature": "H\u00e4matokrit",
+      "_model_feature_name": "|Labor| (Kleinem Bb) H\u00e4matokrit *max",
+      "loinc_name": "Hematocrit [Volume Fraction] of Blood",
+      "loinc_code": "20570-8",
+      "ucum": "%",
+      "aggregation": "max",
+      "value": 30.3999996185
+    },
+    {
+      "feature": "Potassium (K+)",
+      "_model_feature_name": "|BGA| (ven\u00f6s) K+ *max",
+      "loinc_name": "Potassium [Moles/volume] in Serum or Plasma",
+      "loinc_code": "2823-3",
+      "ucum": "mmol/L",
+      "aggregation": "max",
+      "value": 3.0999999046
+    },
+    {
+      "feature": "Chloride (Cl-)",
+      "_model_feature_name": "|BGA| (arteriell) Cl- *max",
+      "loinc_name": "Chloride [Moles/volume] in Serum or Plasma",
+      "loinc_code": "2075-0",
+      "ucum": "mmol/L",
+      "aggregation": "max",
+      "value": null
+    },
+    {
+      "feature": "MCHC",
+      "_model_feature_name": "|Labor| (Kleinem Bb) MCHC *last",
+      "loinc_name": "MCHC [Mass/volume]",
+      "loinc_code": "28540-3",
+      "ucum": "g/dL",
+      "aggregation": "last",
+      "value": 36.2000007629
+    },
+    {
+      "feature": "Temperatur",
+      "_model_feature_name": "|Vital| Temp *mean",
+      "loinc_name": "Body temperature - Urinary bladder | Rectal temperature | Ear temperature ",
+      "loinc_code": "8334-5",
+      "ucum": "Cel",
+      "aggregation": "mean",
+      "value": 37.9
+    },
+    {
+      "feature": "Temperatur",
+      "_model_feature_name": "|Vital| Temp *max",
+      "loinc_name": "Body temperature - Urinary bladder | Rectal temperature | Ear temperature ",
+      "loinc_code": "8334-5",
+      "ucum": "Cel",
+      "aggregation": "max",
+      "value": 38.55
+    },
+    {
+      "feature": "Blutdruck  systolisch",
+      "_model_feature_name": "|Vital| NiBP sys *last",
+      "loinc_name": "Systolic blood pressure",
+      "loinc_code": "8480-6",
+      "ucum": "mm[Hg]",
+      "aggregation": "last",
+      "value": 109.0
+    },
+    {
+      "feature": "Blutdruck  systolisch",
+      "_model_feature_name": "|Vital| NiBP sys *max",
+      "loinc_name": "Systolic blood pressure",
+      "loinc_code": "8480-6",
+      "ucum": "mm[Hg]",
+      "aggregation": "max",
+      "value": 126.0
+    },
+    {
+      "feature": "Blutdruck  diastolisch",
+      "_model_feature_name": "|Vital| Art BP dia *last",
+      "loinc_name": "Diastolic blood pressure",
+      "loinc_code": "8462-4",
+      "ucum": "mm[Hg]",
+      "aggregation": "last",
+      "value": null
+    }
+  ]
+}

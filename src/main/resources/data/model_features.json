@@ -1,0 +1,156 @@
+{
+    "0": {
+        "loinc": [
+            "30385-9"
+        ],
+        "aggregation": "max"
+    },
+    "1": {
+        "loinc": [
+            "59032-3"
+        ],
+        "aggregation": "last"
+    },
+    "2": {
+        "loinc": [
+            "3173-2"
+        ],
+        "aggregation": "max"
+    },
+    "3": {
+        "loinc": [
+            "19996-8"
+        ],
+        "aggregation": "mean"
+    },
+    "4": {
+        "loinc": [
+            "2777-1"
+        ],
+        "aggregation": "min"
+    },
+    "5": {
+        "loinc": [
+            "8480-6"
+        ],
+        "aggregation": "max"
+    },
+    "6": {
+        "loinc": [
+            "48136-6"
+        ],
+        "aggregation": "min"
+    },
+    "7": {
+        "loinc": [
+            "28540-3"
+        ],
+        "aggregation": "last"
+    },
+    "8": {
+        "loinc": [
+            "8480-6"
+        ],
+        "aggregation": "last"
+    },
+    "9": {
+        "loinc": [
+            "33898-8"
+        ],
+        "aggregation": "max"
+    },
+    "10": {
+        "loinc": [
+            "20564-1"
+        ],
+        "aggregation": "mean"
+    },
+    "11": {
+        "loinc": [
+            "8462-4"
+        ],
+        "aggregation": "last"
+    },
+    "12": {
+        "loinc": [
+            "1988-5"
+        ],
+        "aggregation": "max"
+    },
+    "13": {
+        "loinc": [
+            "59032-3"
+        ],
+        "aggregation": "max"
+    },
+    "14": {
+        "loinc": [
+            "2532-0"
+        ],
+        "aggregation": "max"
+    },
+    "15": {
+        "loinc": [
+            "20570-8"
+        ],
+        "aggregation": "max"
+    },
+    "16": {
+        "loinc": [
+            "59032-3"
+        ],
+        "aggregation": "mean"
+    },
+    "17": {
+        "loinc": [
+            "718-7"
+        ],
+        "aggregation": "mean"
+    },
+    "18": {
+        "loinc": [
+            "2823-3"
+        ],
+        "aggregation": "max"
+    },
+    "19": {
+        "loinc": [
+            "2075-0"
+        ],
+        "aggregation": "max"
+    },
+    "20": {
+        "loinc": [
+            "9187-6"
+        ],
+        "aggregation": "sum"
+    },
+    "21": {
+        "loinc": [
+            "3091-6"
+        ],
+        "aggregation": "max"
+    },
+    "22": {
+        "loinc": [
+            "2160-0"
+        ],
+        "aggregation": "last"
+    },
+    "23": {
+        "loinc": [
+            "8334-5",
+            "8332-9",
+            "76011-6"
+        ],
+        "aggregation": "mean"
+    },
+    "24": {
+        "loinc": [
+            "8334-5",
+            "8332-9",
+            "76011-6"
+        ],
+        "aggregation": "max"
+    }
+}
